@@ -1,3 +1,4 @@
+import { login } from "../js/auth.js";
 const linkEsqueceuSenha = document.getElementById("esqueceu-senha");
 linkEsqueceuSenha.addEventListener("click", function(evento) {
     evento.preventDefault();
